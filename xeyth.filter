@@ -11,7 +11,7 @@ Rarity Unique
 
 Show
 Class "Currency"
-BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
+BaseType "Mirror" "Divine" "Perfect Jeweller's Orb" "Exalted Orb"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -19,6 +19,26 @@ BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
+
+
+
+#---Expert Bow---
+Show
+Class "Bow"
+BaseType "Expert Dualstring Bow" "Advanced Dualstring Bow"
+    SetFontSize 35
+    SetTextColor 0 255 100 220
+    SetBorderColor 0 255 100 255
+
+
+
+#---Omen Sceptre---
+Show
+Class "Sceptre"
+BaseType "Omen Sceptre"
+    SetFontSize 35
+    SetTextColor 0 255 100 220
+    SetBorderColor 0 255 100 255
 
 
 
@@ -113,7 +133,7 @@ BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
 
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Exalted Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
 	SetTextColor 130 214 255 255
 	SetBorderColor 130 214 255 255
 	PlayAlertSound 2 300
@@ -179,7 +199,6 @@ WaystoneTier >= 1
 WaystoneTier <= 4
 	SetTextColor 255 255 255 150
     SetBorderColor 0 0 0 0
-	PlayAlertSound 4 100
 	PlayEffect White
 	MinimapIcon 1 White Square
 	SetFontSize 25
@@ -192,17 +211,16 @@ WaystoneTier <= 8
 	SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 255 255 255 200
-	PlayAlertSound 4 100
 	PlayEffect White
 	MinimapIcon 1 White Square
 	SetFontSize 30
     
     
-##T9 - T12
+##T9 - T13
 Show
 BaseType "Waystone"
 WaystoneTier >= 9
-WaystoneTier <= 12
+WaystoneTier <= 13
 	SetTextColor 0 0 0 255
     SetBorderColor 255 217 1 255
     SetBackgroundColor 255 255 255 220
@@ -211,10 +229,10 @@ WaystoneTier <= 12
 	MinimapIcon 1 Yellow Square
 	SetFontSize 35
   
-#T13 - T16
+#T14 - T16
 Show
 BaseType "Waystone"
-WaystoneTier >= 13
+WaystoneTier >= 14
 WaystoneTier <= 16
 	SetTextColor 228 8 10 255
     SetBorderColor 228 8 10 255
@@ -259,11 +277,11 @@ Rarity <= Magic
 
 
 #---Salvagable Items---
-Show
-Sockets > 0
-Rarity <= Magic
-	SetBorderColor 0 0 200
-	SetFontSize 35
+# Show
+# Sockets > 0
+# Rarity <= Magic
+# 	SetBorderColor 0 0 200
+# 	SetFontSize 35
 
 Show
 Quality > 10
@@ -281,17 +299,17 @@ Rarity <= Magic
 
 
 
-#--Expert bases---
-Show
-Rarity Normal
-BaseType "Expert"
-	SetBorderColor 0 200 0
-	SetFontSize 35
+##--Expert bases---
+#Show
+#Rarity <= Magic
+#BaseType "Expert"
+#	SetBorderColor 0 200 0
+#	SetFontSize 35
 
 
 
 #---Low rarity bases---
-Show
+Hide
 Rarity <= Magic
 Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre" "Focus"
 AreaLevel >= 65
@@ -299,14 +317,14 @@ AreaLevel >= 65
 
 
 
-#---Low level bases---
-Hide
-Rarity <= Magic
-Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre"
-AreaLevel >= 65
-DropLevel <= 50
-	SetBackgroundColor 0 0 0 125
-	SetFontSize 20
+##---Low level bases---
+#Hide
+#Rarity <= Magic
+#Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre"
+#AreaLevel >= 65
+#DropLevel <= 50
+#	SetBackgroundColor 0 0 0 125
+#	SetFontSize 20
 
 
 
