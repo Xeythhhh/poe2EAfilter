@@ -235,7 +235,7 @@ WaystoneTier >= 5
 WaystoneTier <= 8
 	SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
-    SetBackgroundColor 255 255 255 200
+    SetBackgroundColor 255 255 255 150
 	PlayEffect White
 	MinimapIcon 1 White Square
 	SetFontSize 30
@@ -248,11 +248,10 @@ WaystoneTier >= 9
 WaystoneTier <= 13
 	SetTextColor 0 0 0 255
     SetBorderColor 255 217 1 255
-    SetBackgroundColor 255 255 255 220
-	PlayAlertSound 5 200
+    SetBackgroundColor 255 255 255 200
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Square
-	SetFontSize 35
+	SetFontSize 30
   
 #T14 - T16
 Show
