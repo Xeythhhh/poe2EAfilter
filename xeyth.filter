@@ -181,7 +181,7 @@ BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
 Show
 Class "Currency"
 BaseType "Wisdom" "Shard"
-    SetFontSize 10
+    SetFontSize 20
 
 #Unknown
 Show
@@ -291,17 +291,19 @@ Rarity <= Magic
 
 
 #---Salvagable Items---
-# Show
-# Sockets > 0
-# Rarity <= Magic
-# 	SetBorderColor 0 0 200
-# 	SetFontSize 35
+Show
+Sockets > 0
+Rarity <= Magic
+    SetTextColor 255 255 255 100
+	SetBorderColor 0 0 200
+	SetFontSize 30
 
 Show
 Quality > 10
 Rarity <= Magic
+    SetTextColor 255 255 255 100
 	SetBorderColor 0 0 200
-	SetFontSize 35
+	SetFontSize 30
 
 
 
