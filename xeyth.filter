@@ -181,6 +181,7 @@ BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
 Show
 Class "Currency"
 BaseType "Wisdom" "Shard"
+    SetFontSize 10
 
 #Unknown
 Show
