@@ -291,19 +291,19 @@ Rarity <= Magic
 
 
 #---Salvagable Items---
-Show
-Sockets > 0
-Rarity <= Magic
-    SetTextColor 255 255 255 100
-	SetBorderColor 0 0 200
-	SetFontSize 30
-
-Show
-Quality > 10
-Rarity <= Magic
-    SetTextColor 255 255 255 100
-	SetBorderColor 0 0 200
-	SetFontSize 30
+#Show
+#Sockets > 0
+#Rarity <= Magic
+#    SetTextColor 255 255 255 100
+#	SetBorderColor 0 0 200
+#	SetFontSize 30
+#
+#Show
+#Quality > 10
+#Rarity <= Magic
+#    SetTextColor 255 255 255 100
+#	SetBorderColor 0 0 200
+#	SetFontSize 30
 
 
 
