@@ -63,6 +63,17 @@ ItemLevel 20
 	MinimapIcon 0 Red Star
 
 
+#---Valuable Bases
+# Mana and +4
+Show
+Rarity >= Magic
+Class "Wands"
+    SetFontSize 35
+    SetTextColor 200 0 100 220
+    SetBorderColor 200 0 100 255
+    
+    
+    
 #---Player Specific highlights-----------------------------------------
 #put # in front of every row in the section to disable the filter rule
 
