@@ -64,9 +64,10 @@ ItemLevel 20
 
 
 #---Valuable Bases
-# Mana and +4
+# Mana and +4 Wand
 Show
 Rarity >= Magic
+ItemLevel >= 78
 Class "Wands"
     SetFontSize 35
     SetTextColor 200 0 100 220
