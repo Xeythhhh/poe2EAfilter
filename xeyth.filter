@@ -42,12 +42,12 @@ BaseType "Divine" "Perfect Jeweller's Orb" "Soul Core of Azcapa"
     
 Show
 Class "Currency"
-BaseType "Exalted Orb" "Greater Jeweller's Orb"
-	SetFontSize 40
+BaseType "Exalted Orb" "Greater Jeweller's Orb" "Chaos Orb"
+	SetFontSize 35
 	SetTextColor 0 165 247 255
 	SetBorderColor 0 165 247 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 100
+	PlayAlertSound 6 50
 	PlayEffect Blue
 	MinimapIcon 0 Blue Star
 
@@ -205,7 +205,7 @@ BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
 
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Greater Jeweller's Orb" "Lesser Jeweller's Orb" "Exotic" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
 	SetTextColor 130 214 255 255
 	SetBorderColor 130 214 255 255
 	PlayAlertSound 2 300
