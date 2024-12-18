@@ -42,7 +42,7 @@ BaseType "Divine" "Perfect Jeweller's Orb" "Soul Core of Azcapa"
     
 Show
 Class "Currency"
-BaseType "Exalted Orb" "Greater Jeweller's Orb" "Chaos Orb"
+BaseType "Exalted Orb" "Greater Jeweller's Orb" "Chaos Orb" "Orb of Chance"
 	SetFontSize 35
 	SetTextColor 0 165 247 255
 	SetBorderColor 0 165 247 255
@@ -70,25 +70,10 @@ Rarity >= Magic
 ItemLevel >= 78
 Class "Wands"
     SetFontSize 35
-    SetTextColor 200 0 100 220
-    SetBorderColor 200 0 100 255
-    
-    
-    
-#---Player Specific highlights-----------------------------------------
-#put # in front of every row in the section to disable the filter rule
+    SetTextColor 200 0 100 200
+    SetBorderColor 200 0 100 200
 
-#---Example Disabled Rule
-#Show
-#Class "Currency"
-#BaseType "Scroll of Wisdom"
-#    SetFontSize 69
-#    SetTextColor 0 255 100 220
-#    SetBorderColor 0 255 100 255
-
-
-
-#---Xeyth
+# Phys / Cold
 Show
 Class "Bow"
 BaseType "Expert Dualstring Bow"
@@ -98,28 +83,17 @@ BaseType "Expert Dualstring Bow"
 
 
 
-#---Mingo
-#Show
-#Class "Sceptre"
-#BaseType "Omen Sceptre"
-#    SetFontSize 35
-#    SetTextColor 0 255 100 220
-#    SetBorderColor 0 255 100 255
-#----------------------------------------------------------------------
-
-
 #---Gold---
 Show
-StackSize >= 1000
+StackSize >= 2500
 BaseType == "Gold"
 	SetTextColor 255 255 255
 	SetBorderColor 255 222 89
-	SetBackgroundColor 254  206 15 150
+	SetBackgroundColor 254 206 15 69
 	PlayEffect Orange Temp
-	PlayAlertSound 3 100
     
 Show
-StackSize >= 500
+StackSize >= 1000
 BaseType == "Gold"
 	SetTextColor 255 222 89
 	SetBorderColor 255 222 89
@@ -127,9 +101,10 @@ BaseType == "Gold"
 
 Show
 BaseType == "Gold"
-	SetTextColor 255 222 89 180
-	SetBorderColor 0 0 0 180
-	SetBackgroundColor 0 0 0 180
+    SetFontSize 10
+	SetTextColor 255 222 89 69
+	SetBorderColor 0 0 0 69
+	SetBackgroundColor 0 0 0 69
 
 
 
@@ -137,7 +112,7 @@ BaseType == "Gold"
 Show
 BaseType "Uncut "
 ItemLevel >= 15
-    SetFontSize 25
+    SetFontSize 20
 	SetTextColor 20 240 240 200
 	SetBorderColor 20 240 240 200
 
@@ -160,9 +135,9 @@ BaseType "Soul Core" "Timeless"
 
 Show 
 Class "Relic"
-	SetTextColor 0 240 190
+	SetTextColor 0 240 190 169
 	SetBorderColor 0 240 190
-	SetFontSize 40
+	SetFontSize 25
 	MinimapIcon 2 Cyan Triangle
 	PlayEffect Cyan
 
@@ -185,8 +160,8 @@ Rarity Magic
 
 Show 
 BaseType " Rune" " Charm"
-	SetTextColor 0 240 190 200
-	SetFontSize 30
+	SetTextColor 0 240 190 169
+	SetFontSize 25
 	PlayEffect Cyan Temp
 
 
@@ -201,17 +176,17 @@ BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
 	PlayAlertSound 1 300
 	PlayEffect White
 	MinimapIcon 1 White Circle
-	SetFontSize 40
+	SetFontSize 35
 
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Greater Jeweller's Orb" "Lesser Jeweller's Orb" "Exotic" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Greater Jeweller's Orb" "Lesser Jeweller's Orb" "Exotic" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy"
 	SetTextColor 130 214 255 255
 	SetBorderColor 130 214 255 255
 	PlayAlertSound 2 300
 	PlayEffect White
 	MinimapIcon 1 White Circle
-	SetFontSize 40
+	SetFontSize 35
 
 Show
 Class "Currency"
@@ -247,8 +222,9 @@ BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
 Show
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
-	SetTextColor 255 207 132
-	SetBorderColor 255 207 132
+    SetFontSize 25
+	SetTextColor 255 207 132 169
+	SetBorderColor 255 207 132 169
 	MinimapIcon 2 Grey Circle
 
 Show
