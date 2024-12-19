@@ -221,15 +221,14 @@ BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
 
 Show
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
     SetFontSize 25
 	SetTextColor 255 207 132 169
 	SetBorderColor 255 207 132 169
-	MinimapIcon 2 Grey Circle
 
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
 	SetTextColor 255 207 132
 	SetBorderColor 255 207 132
 	MinimapIcon 2 Grey Circle
@@ -256,7 +255,7 @@ BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "C
 	SetBackgroundColor 65 20 80
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 White Square
+	MinimapIcon 1 White Star
 	SetFontSize 40
 
 
